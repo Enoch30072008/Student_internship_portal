@@ -1,0 +1,96 @@
+/* Browse Page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+}
+.brand{
+  display: flex;
+}
+
+.app {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.tabs .browse {
+  background: #26354a;
+  color: white;
+  border-radius: 8px;
+}
+
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid #ddd;
+}
+
+.brand span {
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+
+}
+
+.tabs {
+  /* display: flex; */
+  gap: 10px;
+}
+
+.tabs button {
+  border: 0;
+  background: white;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.tabs .active {
+  background: #26354a;
+  color: white;
+  border-radius: 8px;
+}
+
+
+#browse {
+  padding: 40px;
+}
+
+#browse .section-head h3 {
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
+.filters {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.filters input,
+.filters select {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: white;
+  font-size: 14px;
+}
+
+.filters input {
+  width: 350px;
+}
+
+.filters select {
+  width: 160px;
+}
+
+#browse-list {
+  display: grid;
+  gap: 15px;
+}
