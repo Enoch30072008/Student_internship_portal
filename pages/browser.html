@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Browse | InternPath</title>
+  <link rel="stylesheet" href="../styles/browser.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="../index.html"><span>◆</span> InternPath</a>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../pages/browser.html" class="active">Browse</a>
+      <a href="../pages/application.html">My Application</a>
+      <a href="../pages/profile.html">Profile</a>
+    </nav>
+    <a class="me" href="../pages/profile.html" title="My profile"><b>S</b><span>Student</span></a>
+  </header>
+  <main>
+    <h1>Browse Internships</h1>
+    <p class="subtitle">Search by title or company, then narrow down with filters.</p>
+    <div class="filters">
+      <input id="search" type="search" placeholder="Search internships or companies..." aria-label="Search">
+      <select id="category" aria-label="Category">
+        <option value="">All fields</option>
+        <option>Technology</option><option>Marketing</option><option>Finance</option><option>Design</option>
+      </select>
+      <select id="type" aria-label="Type">
+        <option value="">All types</option>
+        <option>Remote</option><option>Hybrid</option><option>On-site</option>
+      </select>
+    </div>
+    <div class="list">
+      <article class="card" data-category="Technology" data-type="Remote">
+        <div class="badge">B</div>
+        <div class="body">
+          <h3>Frontend Developer Intern</h3>
+          <p class="company">BrightApps · Technology · Remote</p>
+          <p class="stipend">20,000 / month</p>
+          <div class="actions">
+            <button data-action="apply">Apply</button>
+            <button class="ghost" data-action="save">Save ☆</button>
+          </div>
+        </div>
+      </article>
+      <article class="card" data-category="Marketing" data-type="Hybrid">
+        <div class="badge">O</div>
+        <div class="body">
+          <h3>Marketing Intern</h3>
+          <p class="company">Orchid Studio · Marketing · Hybrid</p>
+          <p class="stipend">16,000 / month</p>
+          <div class="actions">
+            <button data-action="apply">Apply</button>
+            <button class="ghost" data-action="save">Save ☆</button>
+          </div>
+        </div>
+      </article>
+      <article class="card" data-category="Finance" data-type="On-site">
+        <div class="badge">N</div>
+        <div class="body">
+          <h3>Data Analyst Intern</h3>
+          <p class="company">NorthBank · Finance · On-site</p>
+          <p class="stipend">15,000 / month</p>
+          <div class="actions">
+            <button data-action="apply">Apply</button>
+            <button class="ghost" data-action="save">Save ☆</button>
+          </div>
+        </div>
+      </article>
+      <article class="card" data-category="Design" data-type="Remote">
+        <div class="badge">P</div>
+        <div class="body">
+          <h3>UI/UX Design Intern</h3>
+          <p class="company">Pixel &amp; Co · Design · Remote</p>
+          <p class="stipend">18,000 / month</p>
+          <div class="actions">
+            <button data-action="apply">Apply</button>
+            <button class="ghost" data-action="save">Save ☆</button>
+          </div>
+        </div>
+      </article>
+      <article class="card" data-category="Technology" data-type="Hybrid">
+        <div class="badge">C</div>
+        <div class="body">
+          <h3>Backend Engineer Intern</h3>
+          <p class="company">CloudNest · Technology · Hybrid</p>
+          <p class="stipend">25,000 / month</p>
+          <div class="actions">
+            <button data-action="apply">Apply</button>
+            <button class="ghost" data-action="save">Save ☆</button>
+          </div>
+        </div>
+      </article>
+      <article class="card" data-category="Marketing" data-type="Remote">
+        <div class="badge">B</div>
+        <div class="body">
+          <h3>Social Media Intern</h3>
+          <p class="company">Bloom Media · Marketing · Remote</p>
+          <p class="stipend">20,000 / month</p>
+          <div class="actions">
+            <button data-action="apply">Apply</button>
+            <button class="ghost" data-action="save">Save ☆</button>
+          </div>
+        </div>
+      </article>
+    </div>
+    <div class="row"><span></span><a href="../index.html">See all</a></div>
+  </main>
+  <script src="../script.js"></script>
+</body>
+</html>

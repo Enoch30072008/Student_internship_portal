@@ -1,0 +1,22 @@
+@import url("home.css");
+.filters {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+.filters input,
+.filters select {
+  font: inherit;
+  padding: 13px 16px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: #fff;
+  color: var(--text);
+  width: 100%;
+  box-shadow: var(--shadow);
+}
+.filters input:focus,
+.filters select:focus {
+  outline: 2px solid var(--purple);
+}

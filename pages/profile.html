@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Profile | InternPath</title>
+  <link rel="stylesheet" href="../styles/profile.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="../index.html"><span>◆</span> InternPath</a>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../pages/browser.html">Browse</a>
+      <a href="../pages/application.html">My Application</a>
+      <a href="../pages/profile.html" class="active">Profile</a>
+    </nav>
+    <a class="me" href="../pages/profile.html" title="My profile"><b>S</b><span>Student</span></a>
+  </header>
+  <main>
+    <h1>My Profile</h1>
+    <p class="subtitle">Keep your details up to date so companies can find you.</p>
+    <section class="card profile">
+      <form id="profileForm">
+        <label>Name <input type="text" placeholder="Jane Doe" required></label>
+        <label>School <input type="text" placeholder="State University"></label>
+        <label>Major <input type="text" placeholder="Computer Science"></label>
+        <label>Graduation year <input type="number" placeholder="2027" min="2024" max="2040"></label>
+        <label>Resume link <input type="url" placeholder="https://..."></label>
+        <label>Skills <textarea rows="3" placeholder="HTML, CSS, Python, Communication"></textarea></label>
+        <button type="submit">Save Profile</button>
+      </form>
+    </section>
+  </main>
+  <script src="../script.js"></script>
+</body>
+</html>

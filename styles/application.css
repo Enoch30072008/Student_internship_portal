@@ -1,0 +1,36 @@
+@import url("home.css");
+.app-card {
+  align-items: center;
+}
+.app-card .side {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-left: auto;
+}
+.status {
+  padding: 5px 16px;
+  border-radius: 99px;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+.status.review {
+  background: #fff4d6;
+  color: #a56a00;
+}
+.status.interview {
+  background: #dff6e8;
+  color: #1b7a47;
+}
+.status.submitted {
+  background: var(--purple-soft);
+  color: var(--purple-dark);
+}
+.app-card button {
+  background: #fdeaea;
+  color: #c0392b;
+  padding: 9px 18px;
+}
+.app-card button:hover {
+  background: #f9d3d3;
+}

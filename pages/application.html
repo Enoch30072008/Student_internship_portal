@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Applications | InternPath</title>
+  <link rel="stylesheet" href="../styles/application.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="index.html"><span>◆</span> InternPath</a>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../pages/browser.html">Browse</a>
+      <a href="../pages/application.html" class="active">My Application</a>
+      <a href="../pages/profile.html">Profile</a>
+    </nav>
+    <a class="me" href="../pages/profile.html" title="My profile"><b>S</b><span>Student</span></a>
+  </header>
+  <main>
+    <h1>My Applications</h1>
+    <p class="subtitle">Track the status of every internship you applied to.</p>
+    <div class="list">
+      <article class="card app-card">
+        <div class="badge">B</div>
+        <div class="body">
+          <h3>Frontend Developer Intern</h3>
+          <p class="company">BrightApps · Applied Oct 12</p>
+          <p class="stipend">20,000 / month</p>
+        </div>
+        <div class="side">
+          <span class="status interview">Applied · Interview</span>
+          <button data-action="remove">Remove</button>
+        </div>
+      </article>
+      <article class="card app-card">
+        <div class="badge">N</div>
+        <div class="body">
+          <h3>Data Analyst Intern</h3>
+          <p class="company">NorthBank · Applied Oct 15</p>
+          <p class="stipend">15,000 / month</p>
+        </div>
+        <div class="side">
+          <span class="status review">Applied · In review</span>
+          <button data-action="remove">Remove</button>
+        </div>
+      </article>
+      <article class="card app-card">
+        <div class="badge">P</div>
+        <div class="body">
+          <h3>UI/UX Design Intern</h3>
+          <p class="company">Pixel &amp; Co · Applied Oct 20</p>
+          <p class="stipend">18,000 / month</p>
+        </div>
+        <div class="side">
+          <span class="status submitted">Applied</span>
+          <button data-action="remove">Remove</button>
+        </div>
+      </article>
+    </div>
+  </main>
+  <script src="../script.js"></script>
+</body>
+</html>
